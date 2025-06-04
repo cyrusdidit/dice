@@ -1,0 +1,29 @@
+.dice {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 250px;
+  height: 320px;
+}
+
+.dice h2 {
+  margin-bottom: 12px;
+}
+
+.dice img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 12px;
+}
+
+.dice button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

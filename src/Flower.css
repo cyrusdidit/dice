@@ -1,0 +1,45 @@
+.flower {
+  border: 2px dashed pink;
+  padding: 20px;
+
+  border-radius: 15px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 250px;
+  height: 320px;
+
+}
+
+.flower h2 {
+  margin-bottom: 12px;
+}
+
+.flower button {
+  margin: 12px 0;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.petals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+.petal {
+  padding: 4px 8px;
+  background: #ffe0f0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.petal.picked {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
